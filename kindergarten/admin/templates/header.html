@@ -2,7 +2,7 @@
     <div class="navbar-inner">
         <div class="container">
 
-            <a href="/" class="brand" style="margin-left: -160px;">幼儿园后台管理</a>
+            <a href="/" class="brand" style="margin-left: -160px;">实验室后台管理</a>
 
             <div class="nav-collapse collapse">
                 <ul class="nav">
@@ -13,19 +13,19 @@
                         <a href="{% url 'admin-news' %}">新闻公告</a>
                     </li>
                     <li class="{% ifequal topnav 3 %}active{% endifequal %}">
-                        <a href="{% url 'admin-class' %}">班级管理</a>
+                        <a href="{% url 'admin-class' %}">实验室管理</a>
                     </li>
                     <li class="{% ifequal topnav 4 %}active{% endifequal %}">
                         <a href="{% url 'admin-activity' %}">活动</a>
                     </li>
                     <li class="{% ifequal topnav 5 %}active{% endifequal %}">
-                        <a href="{% url 'admin-course' %}">课程</a>
+                        <a href="{% url 'admin-course' %}">开课课程</a>
                     </li>
                     <li class="{% ifequal topnav 7 %}active{% endifequal %}">
-                        <a href="{% url 'admin-education' %}">育儿宝典</a>
+                        <a href="{% url 'admin-education' %}">成果展示</a>
                     </li>
-                    <li class="{% ifequal topnav 6 %}active{% endifequal %}">
-                        <a href="{% url 'admin-reservation' %}">预约</a>
+                   <！-- <li class="{% ifequal topnav 6 %}active{% endifequal %}">
+                        <a href="{% url 'admin-reservation' %}">预约</a>-->
                     </li>
                     <li class="{% ifequal topnav 8 %}active{% endifequal %}">
                         <a href="{% url 'admin-user' %}">用户管理</a>
